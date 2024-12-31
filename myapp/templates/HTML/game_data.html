@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MLB Gumbo Data</title>
+</head>
+<body>
+  <h1>MLB Game Data</h1>
+  {% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+  {% else %}
+    <pre>{{ game_data }}</pre>  {% endif %}
+</body>
+</html>
